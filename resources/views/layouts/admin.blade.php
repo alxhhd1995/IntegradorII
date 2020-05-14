@@ -131,7 +131,7 @@
                 @if(Auth::user()->idCargo==1)
                 <li><a href="{{ route('producto')}}"><i class="fas fa-circle-notch"></i> Albalex Electric </a></li>
                 @endif
-                <li><a href="{{ route('catalogo')}}"><i class="fas fa-circle-notch"></i> Catálogo</a></li>
+                <li><a href="{{ route('catalogo')}}"><i class="fas fa-circle-notch"></i>Productos</a></li>
                 @if(Auth::user()->idCargo==1)
                 <li><a href="{{ route('productobandejas')}}"><i class="fas fa-circle-notch"></i> Accesorios Albalex Electric</a></li>
                 @endif
